@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tony</title>
+    <link rel="icon" href="icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="tony.css"> <!-- link css-->
+</head>
+<body>
+    <div id="profile-container">
+        <!-- sidebar -->
+        <div id="sidebar">
+            <div id="profile-pic">
+                <img src="tony pfp.jpg" alt="foto de perfil">
+            </div>
+
+            <div id="user-info">
+                <h2>tony</h2>
+                <p>idade: 17</p>
+                <p>de: bristol, UK</p>
+                <p>status: <span class="status-dot"></span> offline</p>
+            </div>
+
+            <!-- sidebar ações -->
+            <table id="action-table">
+                <tbody>
+                    <tr>
+                        <td><img src="message.png" alt="Enviar Mensagem"></td>
+                        <td><a href="#">Enviar Mensagem</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="add.png" alt="Adicionar Amigo"></td>
+                        <td><a href="#">Adicionar Amigo</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="block.png" alt="Bloquear"></td>
+                        <td><a href="#">Bloquear</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="report.png" alt="Reportar"></td>
+                        <td><a href="#">Reportar</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="addstar.png" alt="Adicionar aos Favoritos"></td>
+                        <td><a href="#">Adicionar aos Favoritos</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="main-content">
+            <!-- sobre mim -->
+            <section class="about-me">
+                <h3>sobre mim</h3>
+                <p>ocupado</p>
+            </section>
+
+            <!-- música -->
+            <section class="music">
+                <h3>música favorita</h3>
+                <p>queen - don't stop me now</p>
+                <audio controls>
+                    <source src="queen.mp3" type="audio/mpeg">
+                    Seu navegador não suporta a tag de áudio.
+                </audio>
+            </section>
+
+            <h3>tony tem 7 amigos</h3>
+
+            <!-- amigos -->
+             <!-- representei cada amigo por uma imagem e um link p/ sua página -->
+            <section class="friends">
+                <div class="friend">
+                    <a href="cassie.html">
+                    <img src="cassiepfp.jfif" alt="Cassie">
+                </a>
+                    <p>cassie</p>
+                </div>
+                <div class="friend">
+                    <a href="michelle.html">
+                    <img src="michelle.jfif" alt="michelle">
+                    </a>
+                    <p>michelle</p>
+                </div>
+                <div class="friend">
+                    <a href="anwar.html">
+                    <img src="anwarsid.jfif" alt="sid">
+                    </a>
+                    <p>anwar</p>
+                </div>
+                <div class="friend">
+                    <a href="chris.html">
+                    <img src="chris.jpg" alt="chris">
+                    </a>
+                    <p>chris</p>
+                </div>
+                <div class="friend">
+                    <a href="jal.html">
+                    <img src="jal5.jpg" alt="jal">
+                    </a>
+                    <p>jal</p>
+                </div>
+                <div class="friend">
+                    <a href="maxxie.html">
+                    <img src="maxxie oliver.jfif" alt="maxxie">
+                    </a>
+                    <p>maxxie</p>
+                </div>
+                <div class="friend">
+                    <a href="sidprofile.html">
+                    <img src="sidmichelle.jfif" alt="sid">
+                    </a>
+                    <p>sid</p>
+                </div>
+            </section>
+
+            <!-- fotos -->
+<section class="photo-posts">
+    <h3>fotos de tony</h3>
+    <div class="photo-gallery">
+        <div class="photo-item">
+            <img src="Skins Generation 1.jfif" alt="Foto 1">
+        </div>
+        <div class="photo-item">
+            <img src="sidtony1.jfif" alt="Foto 2">
+        </div>
+        <div class="photo-item">
+            <img src="sid icon.jfif" alt="Foto 3">
+        </div>
+         <!-- fotos 2linha -->
+         <div class="photo-item">
+            <img src="Tony and maxxie.jfif" alt="Foto 4">
+        </div>
+        <div class="photo-item">
+            <img src="haha.jfif" alt="Foto 5">
+        </div>
+        <div class="photo-item">
+            <img src="tonyeffy.jfif" alt="Foto 6">
+        </div>
+    </div>
+</section>
+
+             <!-- mensagens" -->
+             <section class="messages">
+                <h3>mensagens</h3>
+                <table class="message-table">
+                    <thead>
+                        <tr>
+                            <th>user</th>
+                            <th>mensagem</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                X
+                            </td>
+                            <td>Este usuário bloqueia o quadro de mensagens.</td>
+                            </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- comentários -->
+            <section class="comments">
+                <h3>deixe uma mensagem</h3>
+                <textarea placeholder="Escreva aqui..."></textarea>
+                <button>Enviar</button>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
