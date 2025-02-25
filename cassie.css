@@ -1,0 +1,218 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    background: url(cassiegif.gif) no-repeat center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+#profile-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #ffe1e1;
+    border: 4px solid #df9797;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#sidebar {
+    width: 300px;
+    background-color: #f5c9c9;
+    padding: 20px;
+    border-right: 1px solid #df9797;
+}
+
+#profile-pic img {
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid #df9797;
+}
+
+#user-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#user-info h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+#user-info p {
+    color: #666;
+    margin: 5px 0;
+}
+
+.status-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #00ff00;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#action-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+#action-table td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+#action-table img {
+    width: 24px;
+    height: 24px;
+}
+
+#action-table a {
+    text-decoration: none;
+    color: #333;
+}
+
+#action-table a:hover {
+    text-decoration: underline;
+}
+
+#main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.about-me, .music, .friends, .comments {
+    margin-bottom: 30px;
+    background-image: url(estrelapixel.gif);
+}
+
+.music iframe {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.friends {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-image: url(estrelapixel.gif);
+}
+
+.friend {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.friend img {
+    margin-top: -20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: -20px;
+}
+
+/* Estilo da seção de postagens de fotos */
+.photo-posts {
+    margin-top: 30px;
+    background-image: url(estrelapixel.gif);
+}
+
+.photo-posts h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espaço entre as fotos */
+}
+
+.photo-item {
+    width: calc(30% - 10px); /* Ajuste para exibir três fotos por linha */
+    box-sizing: border-box; /* Inclui o padding e a borda no tamanho total */
+    height: 180px;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.photo-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Estilo da seção de mensagens */
+.messages {
+    margin-top: 30px;
+}
+
+.messages h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.message-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.message-table th, .message-table td {
+    padding: 10px;
+    border: 1px solid #df9797;
+    text-align: left;
+    vertical-align: middle; /*Alinha verticalmente o conteúdo das célular */
+}
+
+.message-table th {
+    background-color: #f5c9c9;
+    font-weight: bold;
+}
+
+.message-table tr:nth-child(even) {
+    background-color: #ffe1e1;
+}
+
+.message-table tr:hover {
+    background-color: #df9797;
+}
+
+.mensagempfp {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.comments textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #df9797;
+    border-radius: 5px;
+}
+
+.comments button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #df9797;
+    color: white;
+    cursor: pointer;
+}
